@@ -1,0 +1,110 @@
+.file-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  img,
+  video {
+    max-width: 300px;
+    border: 1px solid #282c34;
+    padding: 5px;
+    background-color: #282c34;
+  }
+  
+  video {
+    max-height: 300px;
+  }
+  
+  .clear-button,
+  input[type="file"] {
+    background-color: #61dafb;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  input[type="file"] {
+    /* Center the input file button */
+    display: block;
+    margin: 0 auto;
+    /* Hide the default file input appearance */
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  .drag-drop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: 2px dashed #61dafb;
+    background-color: #f0f0f0;
+    color: #61dafb;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .drag-over {
+    background-color: #61dafb;
+    color: #ffffff;
+  }
+  
+  .drag-drop-message {
+    margin-bottom: 10px;
+  }
+  
+  .loading-indicator {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .file-input-container {
+    /* Add some spacing and centering */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .file-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .file-input-label {
+    background-color: #61dafb; /* Replace with your desired button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+
+  }
+  
+  .file-input-label:hover {
+    background-color: #88e3fc; /* Replace with your desired button hover color */
+  }
+  
+  #file-input {
+    display: none;
+  }
+  
